@@ -1,9 +1,7 @@
-# -functional Object-Oriented System in Scheme
-copied from http://okmij.org/ftp/Scheme/#pure-oo
+'functional Object-Oriented System in Scheme' copied from <http://okmij.org/ftp/Scheme/#pure-oo>
 
-site index page http://okmij.org/ftp/ indicates 'Unless specified otherwise, all the code and the documentation on this site is in public domain'
-
-
+The site index page <http://okmij.org/ftp/> indicates 'Unless specified otherwise, all the code and the documentation on this site is in public domain'
+---
 
 # Purely-functional Object-Oriented System
 
