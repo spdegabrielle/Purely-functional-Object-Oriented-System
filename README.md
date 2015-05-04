@@ -1,6 +1,7 @@
 'functional Object-Oriented System in Scheme' copied from <http://okmij.org/ftp/Scheme/#pure-oo>
 
-The site index page <http://okmij.org/ftp/> indicates 'Unless specified otherwise, all the code and the documentation on this site is in public domain'
+The site index page <http://okmij.org/ftp/> states 'Unless specified otherwise, all the code and the documentation on this site is in public domain'
+
 ---
 
 # Purely-functional Object-Oriented System
@@ -15,9 +16,11 @@ Objects' identity is decided by an eq? predicate applied to the result of an ide
  	The current version is 1.2, February 29, 2000.
 
 ## References
-* pure-oo-system.scm [6K]
+* pure-oo-system.scm [6K] 
+
   The source code, with comments and illustrative tests.
 * A USENET article [plain text file](http://okmij.org/ftp/Scheme/oop-in-fp.txt)
+
   that discusses implementation of objects as functions (closures) in a non-pure and pure functional languages.
 
 ## From other archives
