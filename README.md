@@ -97,15 +97,15 @@ generic functions and multi-methods.
 
 In article <slrn86ff4e.k6.qrczak@qrnik.knm.org.pl>,
 qrczak@knm.org.pl (Marcin 'Qrczak' Kowalczyk) wrote:  
-    > How do we define that a paradigm can model another one? After all
-    > one can write an interpreter of any real language using any other
-    > Turing-complete language. We don't want to say that the C language
-    > models functional and OO paradigms only because compilers of
-    functional
-    > and OO languages use C as their target languages.
-    >
-    > We want the translated programs to "integrate" well enough with the
-    > implementing language. I'm afraid that it must be very informal...
+> How do we define that a paradigm can model another one? After all
+> one can write an interpreter of any real language using any other
+> Turing-complete language. We don't want to say that the C language
+> models functional and OO paradigms only because compilers of
+functional
+> and OO languages use C as their target languages.
+>
+> We want the translated programs to "integrate" well enough with the
+> implementing language. I'm afraid that it must be very informal...
 
 Matthias Felleisen wrote a paper exactly on that subject:
 "On the Expressive Power of Programming Languages"
