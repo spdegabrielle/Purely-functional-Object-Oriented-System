@@ -65,8 +65,8 @@ USENET article [plain text file](http://okmij.org/ftp/Scheme/oop-in-fp.txt) from
     mutate its own state ("closed" variables) in response to some
     messages.
     
-    In 1992 Ken Dickey wrote a fascinating paper "Scheming with Objects"
-    [ ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt ]
+    In 1992 Ken Dickey wrote a fascinating paper "[Scheming with Objects](ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt)"
+    [ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt](ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt)
     It starts as follows
     "There is a saying--attributed to Norman Adams--that 'Objects are a
     poor man's closures.' In this article we discuss what closures are and
