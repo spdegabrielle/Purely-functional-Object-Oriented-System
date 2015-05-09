@@ -19,6 +19,7 @@ Objects' identity is decided by an eq? predicate applied to the result of an ide
 * pure-oo-system.scm [6K] 
 
   The source code, with comments and illustrative tests.
+
 * A USENET article [plain text file](http://okmij.org/ftp/Scheme/oop-in-fp.txt)
 
   that discusses implementation of objects as functions (closures) in a non-pure and pure functional languages.
@@ -50,8 +51,7 @@ language.
 According to the classical definition,
 "An object has state, behavior, and identity; the structure and
 behavior of similar objects are defined in their common class; the
-terms instance and object are interchangeable".
-
+terms instance and object are interchangeable".  
 [See the OO FAQ, <http://www.cyberdyne-object-sys.com/oofaq2/> ]
 
 Let's consider behavior, which is often understood as an ability to
@@ -67,8 +67,8 @@ mutate its own state ("closed" variables) in response to some
 messages.
 
 In 1992 Ken Dickey wrote a fascinating paper "[Scheming with Objects](ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt)"
-<ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt>
-It starts as follows
+<ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt>  
+It starts as follows  
 "There is a saying--attributed to Norman Adams--that 'Objects are a
 poor man's closures.' In this article we discuss what closures are and
 how objects and closures are related, show code samples to make these
@@ -80,7 +80,8 @@ on custom syntax forms though, to make definitions of objects and
 classes as familiar as possible. Listing 1 (below) shows a far lighter
 version. It deliberately uses only most basic Scheme constructions. It
 implements a delegation-based OO system (as found in Self and
-Javascript).
+Javascript).  
+
 In Listing 1, the closures are not pure (they can mutate their own
 state). However, one can just as easily implement the same OO system
 in a pure functional language: Listing 2. Well, it's Scheme again, its
@@ -97,7 +98,7 @@ instances, in FP. CLOS is a very advanced example of a OO system with
 generic functions and multi-methods.
 
 In article <slrn86ff4e.k6.qrczak@qrnik.knm.org.pl>,
-qrczak@knm.org.pl (Marcin 'Qrczak' Kowalczyk) wrote:
+qrczak@knm.org.pl (Marcin 'Qrczak' Kowalczyk) wrote:  
     > How do we define that a paradigm can model another one? After all
     > one can write an interpreter of any real language using any other
     > Turing-complete language. We don't want to say that the C language
@@ -110,7 +111,7 @@ qrczak@knm.org.pl (Marcin 'Qrczak' Kowalczyk) wrote:
 
 Matthias Felleisen wrote a paper exactly on that subject:
 "On the Expressive Power of Programming Languages"
-[ <http://www.cs.rice.edu/CS/PLT/Publications/> ] He came up
+[<http://www.cs.rice.edu/CS/PLT/Publications/>] He came up
 with an interesting, formal definition that lets you tell
 when one language is strictly more expressive than the other.
 He _proved_ for example that a call-by-value lambda-calculus
@@ -171,7 +172,7 @@ the rest of the list are the results of the message if any. Objects
 identity is decided by an eq? predicate applied to the result of an
 'identify' message. As before, a "set-x" method "changes" object's
 state but preserves its identity -- in a manner of speaking, of
-course.
+course.  
 [see <http://pobox.com/~oleg/ftp/Scheme/pure-oo-system.scm> ]
-    
-    I can elaborate further, but it's late and I want to go home...
+
+I can elaborate further, but it's late and I want to go home...
