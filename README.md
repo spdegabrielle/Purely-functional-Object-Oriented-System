@@ -12,17 +12,15 @@ The present code implements a classless, delegation-based OO system, similar to 
 Objects' identity is decided by an eq? predicate applied to the result of an identity message. A set-x method returns an object with a new state, but with the same identity as the source object. An object in a changed state is in a sense a "child" of the original object. No wonder implementations of "mutation" and inheritance are so similar in this OO system. 
  
 
-## Version
+## Version  
  	The current version is 1.2, February 29, 2000.
 
-## References
-* pure-oo-system.scm [6K] 
+## References  
+* pure-oo-system.scm [6K]  
+The source code, with comments and illustrative tests.
 
-  The source code, with comments and illustrative tests.
-
-* A USENET article [plain text file](http://okmij.org/ftp/Scheme/oop-in-fp.txt)
-
-  that discusses implementation of objects as functions (closures) in a non-pure and pure functional languages.
+* A USENET article [plain text file](http://okmij.org/ftp/Scheme/oop-in-fp.txt)  
+that discusses implementation of objects as functions (closures) in a non-pure and pure functional languages.
 
 ## From other archives
  	
@@ -69,11 +67,11 @@ messages.
 In 1992 Ken Dickey wrote a fascinating paper "[Scheming with Objects](ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt)"
 <ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt>  
 It starts as follows  
-"There is a saying--attributed to Norman Adams--that 'Objects are a
-poor man's closures.' In this article we discuss what closures are and
-how objects and closures are related, show code samples to make these
-abstract ideas concrete, and implement a Scheme Object System which
-solves the problems we uncover along the way."
+>"There is a saying--attributed to Norman Adams--that 'Objects are a
+>poor man's closures.' In this article we discuss what closures are and
+>how objects and closures are related, show code samples to make these
+>abstract ideas concrete, and implement a Scheme Object System which
+>solves the problems we uncover along the way."
 
 His paper really implements an OO system in Scheme. It relies heavily
 on custom syntax forms though, to make definitions of objects and
@@ -118,10 +116,10 @@ He _proved_ for example that a call-by-value lambda-calculus
 is strictly less expressive than call-by-name lambda-calculus
 (if I remember correctly).
 
-Listing 1. A trivial delegation-based OO system (with encapsulation
+**Listing 1. A trivial delegation-based OO system (with encapsulation
 and inheritance). Object's identity is decided by eq? predicate. A
 set-x! message changes object's state but does not affect its
-identity.
+identity.**
 
     (define (make-point-2D x y)
       (define (get-x) x)
@@ -165,14 +163,14 @@ identity.
             ; but they are different objects
     (eq? a-point-2D b-point-2D) ==> #f
     
-Listing 2. The same but in a pure functional style. In addition, the
+**Listing 2. The same but in a pure functional style. In addition, the
 following system implements polymorphism. Each message returns a list;
 its head is an object with a new state, having processed the message;
 the rest of the list are the results of the message if any. Objects
 identity is decided by an eq? predicate applied to the result of an
 'identify' message. As before, a "set-x" method "changes" object's
 state but preserves its identity -- in a manner of speaking, of
-course.  
+course.**  
 [see <http://pobox.com/~oleg/ftp/Scheme/pure-oo-system.scm> ]
 
 I can elaborate further, but it's late and I want to go home...
