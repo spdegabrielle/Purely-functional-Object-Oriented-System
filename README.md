@@ -95,8 +95,7 @@ It is possible to implement a two-level OO system, with classes and
 instances, in FP. CLOS is a very advanced example of a OO system with
 generic functions and multi-methods.
 
-In article <slrn86ff4e.k6.qrczak@qrnik.knm.org.pl>,
-qrczak@knm.org.pl (Marcin 'Qrczak' Kowalczyk) wrote:  
+In article < slrn86ff4e.k6.qrczak@qrnik.knm.org.pl >, qrczak@knm.org.pl (Marcin 'Qrczak' Kowalczyk) wrote:  
 > How do we define that a paradigm can model another one? After all
 > one can write an interpreter of any real language using any other
 > Turing-complete language. We don't want to say that the C language
