@@ -33,16 +33,16 @@ an article "Re: FP, OO and relations. Does anyone trump the others? " posted on 
 
 USENET article [plain text file](http://okmij.org/ftp/Scheme/oop-in-fp.txt) from <http://okmij.org/ftp/Scheme/oop-in-fp.txt>:
 
-From www@deja.com Wed Dec 29 05:11:14 GMT 1999
-Message-ID: <84c4qe$48j$1@nnrp1.deja.com>
-From: oleg@pobox.com
-Subject: Re: FP, OO and relations. Does anyone trump the others?
-Date: Wed, 29 Dec 1999 05:13:58 GMT
-Reply-To: oleg@pobox.com
-Newsgroups: comp.lang.smalltalk,comp.lang.functional,comp.lang.scheme
-References: <841ffi$pt9$2@bgtnsc01.worldnet.att.net> <slrn86ff4e.k6.qrczak@qrnik.knm.org.pl>
-X-Article-Creation-Date: Wed Dec 29 05:13:58 1999 GMT
-Status: OR
+    From www@deja.com Wed Dec 29 05:11:14 GMT 1999
+    Message-ID: <84c4qe$48j$1@nnrp1.deja.com>
+    From: oleg@pobox.com
+    Subject: Re: FP, OO and relations. Does anyone trump the others?
+    Date: Wed, 29 Dec 1999 05:13:58 GMT
+    Reply-To: oleg@pobox.com
+    Newsgroups: comp.lang.smalltalk,comp.lang.functional,comp.lang.scheme
+    References: <841ffi$pt9$2@bgtnsc01.worldnet.att.net> <slrn86ff4e.k6.qrczak@qrnik.knm.org.pl>
+    X-Article-Creation-Date: Wed Dec 29 05:13:58 1999 GMT
+    Status: OR
 
 It is actually rather easy to implement an OO system in a functional
 language.
@@ -51,6 +51,7 @@ According to the classical definition,
 "An object has state, behavior, and identity; the structure and
 behavior of similar objects are defined in their common class; the
 terms instance and object are interchangeable".
+
 [See the OO FAQ, <http://www.cyberdyne-object-sys.com/oofaq2/> ]
 
 Let's consider behavior, which is often understood as an ability to
